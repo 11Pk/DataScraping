@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+readability-lxml
+youtube-transcript-api
+google-api-python-client
+biopython
+langdetect
+keybert
+sentence-transformers
+tldextract

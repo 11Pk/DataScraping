@@ -1,0 +1,119 @@
+[
+    {
+        "source_url": "https://towardsdatascience.com/what-is-machine-learning-4c7d8e2f5f2b",
+        "source_type": "blog",
+        "author": null,
+        "published_date": null,
+        "language": "unknown",
+        "region": null,
+        "topic_tags": [],
+        "trust_score": 0.45,
+        "content_chunks": []
+    },
+    {
+        "source_url": "https://medium.com/@kdnuggets/top-10-data-science-trends-2024-123456",
+        "source_type": "blog",
+        "author": null,
+        "published_date": null,
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "cookies",
+            "javascript",
+            "enable",
+            "continue"
+        ],
+        "trust_score": 0.45,
+        "content_chunks": [
+            "Enable JavaScript and cookies to continue"
+        ]
+    },
+    {
+        "source_url": "https://www.analyticsvidhya.com/blog/2023/01/introduction-to-ai/",
+        "source_type": "blog",
+        "author": null,
+        "published_date": null,
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "page",
+            "hiding",
+            "worry",
+            "looks",
+            "don"
+        ],
+        "trust_score": 0.41,
+        "content_chunks": [
+            "Looks like this page is hiding! But don’t worry—here’s where you can go next"
+        ]
+    },
+    {
+        "source_url": "https://www.youtube.com/watch?v=aircAruvnKk",
+        "source_type": "youtube",
+        "author": "3Blue1Brown",
+        "published_date": "2017-10-05T15:11:25Z",
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "neurons",
+            "neural",
+            "layers",
+            "networks",
+            "learning"
+        ],
+        "trust_score": 0.54,
+        "content_chunks": [
+            "What are the neurons, why are there layers, and what is the math underlying it? Help fund future projects: https://www.patreon.com/3blue1brown Written/interactive form of this series: https://www.3blue1brown.com/topics/neural-networks Additional funding for this project was provided by Amplify Partners For those who want to learn more, I highly recommend the book by Michael Nielsen that introduces neural networks and deep learning: https://goo.gl/Zmczdy There are two neat things about this book. First, it's available for free, so consider joining me in making a donation to Nielsen if you get something out of it. And second, it's centered around walking through some code and data, which you can download yourself, and which covers the same example that I introduced in this video. Yay for active learning! https://github.com/mnielsen/neural-networks-and-deep-learning I also highly recommend Chris Olah's blog: http://colah.github.io/ For more videos, Welch Labs also has some great series on machine learning: https://youtu.be/i8D90DkCLhI https://youtu.be/bxe2T-V8XRs For those of you looking to go *even* deeper, check out the text \"Deep Learning\" by Goodfellow, Bengio, and Courville. Also, the publication Distill is just utterly beautiful: https://distill.pub/ Lion photo by Kevin Pluck Звуковая дорожка на русском языке: Влад Бурмистров. Thanks to these viewers for their contributions to translations German: @fpgro Hebrew: Omer Tuchfeld Hungarian: Máté Kaszap Italian: @teobucci, Teo Bucci ----------------- Timeline: 0:00 - Introduction example 1:07 - Series preview 2:42 - What are neurons? 3:35 - Introducing layers 5:31 - Why layers? 8:38 - Edge detection example 11:34 - Counting weights and biases 12:30 - How learning relates 13:26 - Notation and linear algebra 15:17 - Recap 16:27 - Some final words 17:03 - ReLU vs Sigmoid Correction 14:45 - The final index on the bias vector should be \"k\" ------------------ Animations largely made using manim, a scrappy open source python library. https://github.com/3b1b/manim If you want to check it out, I feel compelled to warn you that it's not the most well-documented tool, and has many other quirks you might expect in a library someone wrote with only their own use in mind. Music by Vincent Rubinetti. Download the music on Bandcamp: https://vincerubinetti.bandcamp.com/album/the-music-of-3blue1brown Stream the music on Spotify: https://open.spotify.com/album/1dVyjwS8FBqXhRunaG5W5u If you want to contribute translated subtitles or to help review those that have already been made by others and need approval, you can click the gear icon in the video and go to subtitles/cc, then \"add subtitles/cc\". I really appreciate those who do this, as it helps make the lessons accessible to more people. ------------------ 3blue1brown is a channel about animating math, in all senses of the word animate. And you know the drill with YouTube, if you want to stay posted on new videos, subscribe, and click the bell to receive notifications (if you're into that). If you are new to this channel and want to see more, a good place to start is this playlist: http://3b1b.co/recommended Various social media stuffs: Website: https://www.3blue1brown.com Twitter: https://twitter.com/3Blue1Brown Patreon: https://patreon.com/3blue1brown Facebook: https://www.facebook.com/3blue1brown Reddit: https://www.reddit.com/r/3Blue1Brown"
+        ]
+    },
+    {
+        "source_url": "https://www.youtube.com/watch?v=GwIo3gDZCVQ",
+        "source_type": "youtube",
+        "author": "edureka!",
+        "published_date": "2019-09-22T08:30:00Z",
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "ai",
+            "learning",
+            "training",
+            "edureka_learning",
+            "classification"
+        ],
+        "trust_score": 0.54,
+        "content_chunks": [
+            "🔥 Machine Learning Engineer Masters Program (Use Code \"𝐘𝐎𝐔𝐓𝐔𝐁𝐄𝟐𝟎\"): https://www.edureka.co/masters-program/machine-learning-engineer-training This Edureka Machine Learning Full Course video will help you understand and learn Machine Learning Algorithms in detail. This Machine Learning Tutorial is ideal for both beginners as well as professionals who want to master Machine Learning Algorithms. Below are the topics covered in this Machine Learning Tutorial for Beginners video: 00:00 Introduction to Machine Learning Full Course 2:47 What is Machine Learning? 4:08 AI vs ML vs Deep Learning 5:43 How does Machine Learning works? 6:18 Types of Machine Learning 6:43 Supervised Learning 8:38 Supervised Learning Examples 11:49 Unsupervised Learning 13:54 Unsupervised Learning Examples 16:09 Reinforcement Learning 18:39 Reinforcement Learning Examples 19:34 AI vs Machine Learning vs Deep Learning 22:09 Examples of AI 23:39 Examples of Machine Learning 25:04 What is Deep Learning? 25:54 Example of Deep Learning 27:29 Machine Learning vs Deep Learning 33:49 Jupyter Notebook Tutorial 34:49 Installation 50:24 Machine Learning Tutorial 51:04 Classification Algorithm 51:39 Anomaly Detection Algorithm 52:14 Clustering Algorithm 53:34 Regression Algorithm 54:14 Demo: Iris Dataset 1:12:11 Stats & Probability for Machine Learning 1:16:16 Categories of Data 1:16:36 Qualitative Data 1:17:51 Quantitative Data 1:20:55 What is Statistics? 1:23:25 Statistics Terminologies 1:24:30 Sampling Techniques 1:27:15 Random Sampling 1:28:05 Systematic Sampling 1:28:35 Stratified Sampling 1:29:35 Types of Statistics 1:32:21 Descriptive Statistics 1:37:36 Measures of Spread 1:44:01 Information Gain & Entropy 1:56:08 Confusion Matrix 2:00:53 Probability 2:03:19 Probability Terminologies 2:04:55 Types of Events 2:05:35 Probability of Distribution 2:10:45 Types of Probability 2:11:10 Marginal Probability 2:11:40 Joint Probability 2:12:35 Conditional Probability 2:13:30 Use-Case 2:17:25 Bayes Theorem 2:23:40 Inferential Statistics 2:24:00 Point Estimation 2:26:50 Interval Estimate 2:30:10 Margin of Error 2:34:20 Hypothesis Testing 2:41:25 Supervised Learning Algorithms 2:42:40 Regression 2:44:05 Linear vs Logistic Regression 2:49:55 Understanding Linear Regression Algorithm 3:11:10 Logistic Regression Curve 3:18:34 Titanic Data Analysis 3:58:39 Decision Tree 3:58:59 what is Classification? 4:01:24 Types of Classification 4:08:35 Decision Tree 4:14:20 Decision Tree Terminologies 4:18:05 Entropy 4:44:05 Credit Risk Detection Use-case 4:51:45 Random Forest 5:00:40 Random Forest Use-Cases 5:04:29 Random Forest Algorithm 5:16:44 KNN Algorithm 5:20:09 KNN Algorithm Working 5:27:24 KNN Demo 5:35:05 Naive Bayes 5:40:55 Naive Bayes Working 5:44:25Industrial Use of Naive Bayes 5:50:25 Types of Naive Bayes 5:51:25 Steps involved in Naive Bayes 5:52:05 PIMA Diabetic Test Use Case 6:04:55 Support Vector Machine 6:10:20 Non-Linear SVM 6:12:05 SVM Use-case 6:13:30 k Means Clustering & Association Rule Mining 6:16:33 Types of Clustering 6:17:34 K-Means Clustering 6:17:59 K-Means Working 6:21:54 Pros & Cons of K-Means Clustering 6:23:44 K-Means Demo 6:28:44 Hierarchical Clustering 6:31:14 Association Rule Mining 6:34:04 Apriori Algorithm 6:39:19 Apriori Algorithm Demo 6:43:29 Reinforcement Learning 6:46:39 Reinforcement Learning: Counter-Strike Example 6:53:59 Markov's Decision Process 6:58:04 Q-Learning 7:02:39 The Bellman Equation 7:12:14 Transitioning to Q-Learning 7:17:29 Implementing Q-Learning 7:23:33 Machine Learning Projects 7:38:53 Who is a ML Engineer? 7:39:28 ML Engineer Job Trends 7:40:43 ML Engineer Salary Trends 7:42:33 ML Engineer Skills 7:44:08 ML Engineer Job Description 7:45:53 ML Engineer Resume 7:54:48 Machine Learning Interview Questions 🔴 𝐋𝐞𝐚𝐫𝐧 𝐓𝐫𝐞𝐧𝐝𝐢𝐧𝐠 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐅𝐨𝐫 𝐅𝐫𝐞𝐞! 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐭𝐨 𝐄𝐝𝐮𝐫𝐞𝐤𝐚 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: https://edrk.in/DKQQ4Py",
+            "Edureka Machine Learning Training 🔵 Machine Learning Course using Python: http://bit.ly/38BaJco 🔵 Machine Learning Engineer Masters Program: http://bit.ly/2UYS46r 🔵Python Masters Program: https://bit.ly/3cVibjY 🔵 Python Programming Training: http://bit.ly/38ykZCg 🔵 Data Scientist Masters Program: http://bit.ly/31ZsWOn 🔴 Subscribe to our channel to get latest video updates: https://goo.gl/6ohpTV ⏩ NEW Top 10 Technologies To Learn In 2024 - https://www.youtube.com/watch?v=vaLXPv0ewHU 📌𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦: https://t.me/edurekaupdates 📌𝐓𝐰𝐢𝐭𝐭𝐞𝐫: https://twitter.com/edurekain 📌𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧: https://www.linkedin.com/company/edureka 📌𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: https://www.instagram.com/edureka_learning/ 📌𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: https://www.facebook.com/edurekaIN/ 📌𝐒𝐥𝐢𝐝𝐞𝐒𝐡𝐚𝐫𝐞: https://www.slideshare.net/EdurekaIN 📌𝐂𝐚𝐬𝐭𝐛𝐨𝐱: https://castbox.fm/networks/505?country=IN 📌𝐌𝐞𝐞𝐭𝐮𝐩: https://www.meetup.com/edureka/ 📌𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲: https://www.edureka.co/community/ For more information, please write back to us at sales@edureka.in or call us at IND: 9606058406 / US: +18885487823 (toll-free)."
+        ]
+    },
+    {
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/31452104/",
+        "source_type": "pubmed",
+        "author": [
+            "Gabriela Bitencourt-Ferreira",
+            {
+                "name": "Gabriela Bitencourt-Ferreira",
+                "affiliation": "Escola de Ciências da Saúde, Pontifícia Universidade Católica do Rio Grande do Sul-PUCRS, Porto Alegre, RS, Brazil."
+            },
+            "Walter Filgueira de Azevedo",
+            {
+                "name": "Walter Filgueira de Azevedo",
+                "affiliation": "Escola de Ciências da Saúde, Pontifícia Universidade Católica do Rio Grande do Sul-PUCRS, Porto Alegre, RS, Brazil. walter@azevedolab.net."
+            }
+        ],
+        "published_date": "2019",
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "docking",
+            "docker",
+            "autodock",
+            "ligand",
+            "autodock4"
+        ],
+        "trust_score": 0.51,
+        "content_chunks": [
+            "Molegro Virtual Docker is a protein-ligand docking simulation program that allows us to carry out docking simulations in a fully integrated computational package. MVD has been successfully applied to hundreds of different proteins, with docking performance similar to other docking programs such as AutoDock4 and AutoDock Vina. The program MVD has four search algorithms and four native scoring functions. Considering that we may have water molecules or not in the docking simulations, we have a total of 32 docking protocols. The integration of the programs SAnDReS ( https://github.com/azevedolab/sandres ) and MVD opens the possibility to carry out a detailed statistical analysis of docking results, which adds to the native capabilities of the program MVD. In this chapter, we describe a tutorial to carry out docking simulations with MVD and how to perform a statistical analysis of the docking results with the program SAnDReS. To illustrate the integration of both programs, we describe the redocking simulation focused the cyclin-dependent kinase 2 in complex with a competitive inhibitor."
+        ]
+    }
+]

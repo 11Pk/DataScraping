@@ -1,0 +1,117 @@
+[
+    {
+        "source_url": "https://www.cloudflare.com/learning/security/what-is-cyber-security/",
+        "source_type": "blog",
+        "author": null,
+        "published_date": null,
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "cookies",
+            "javascript",
+            "enable",
+            "continue"
+        ],
+        "trust_score": 0.41,
+        "content_chunks": [
+            "Enable JavaScript and cookies to continue"
+        ]
+    },
+    {
+        "source_url": "https://www.un.org/en/climatechange/what-is-climate-change",
+        "source_type": "blog",
+        "author": null,
+        "published_date": null,
+        "language": "unknown",
+        "region": null,
+        "topic_tags": [],
+        "trust_score": 0.41,
+        "content_chunks": []
+    },
+    {
+        "source_url": "https://www.geeksforgeeks.org/machine-learning/machine-learning/",
+        "source_type": "blog",
+        "author": null,
+        "published_date": null,
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "supervised",
+            "classify",
+            "learns",
+            "learning",
+            "algorithms"
+        ],
+        "trust_score": 0.41,
+        "content_chunks": [
+            "Machine learning is a branch of Artificial Intelligence that focuses on developing models and algorithms that let computers learn from data without being explicitly programmed for every task. In simple words, ML teaches systems to think and understand like humans by learning from the data. Machine Learning is mainly divided into three core types: Note: The following are not part of the original three core types of ML, but they have become increasingly important in real-world applications, especially in deep learning. Additional Types: This section covers preprocessing, exploratory data analysis and model evaluation to prepare data, uncover insights and build reliable models. Supervised learning algorithms are generally categorized into two main types: There are many algorithms used in supervised learning each suited to different types of problems. Some of the most commonly used supervised learning algorithms are: This is one of the simplest ways to predict numbers using a straight line. It helps find the relationship between input and output. Used when the output is a \"yes or no\" type answer. It helps in predicting categories like pass/fail or spam/not spam. A model that makes decisions by asking a series of simple questions, like a flowchart. Easy to understand and use. A bit more advanced—it tries to draw the best line (or boundary) to separate different categories of data. This model looks at the closest data points (neighbors) to make predictions. Super simple and based on similarity. A quick and smart way to classify things based on probability. It works well for text and spam detection. A powerful model that builds lots of decision trees and combines them for better accuracy and stability. Ensemble learning combines multiple simple models to create a stronger, smarter model. There are mainly two types of ensemble learning: Unsupervised learning are again divided into three main categories based on their purpose: Clustering algorithms group data points into clusters based on their similarities or differences. Types of clustering algorithms are: Centroid-based Methods: Distribution-based Methods: Connectivity based methods: Density Based methods: Dimensionality reduction is used to simplify datasets by reducing the number of features while retaining the most important information. Find patterns between items in large datasets typically in market basket analysis. Reinforcement learning interacts with environment and learn from them based on rewards. These methods use a model of the environment to predict outcomes and help the agent plan actions by simulating potential results. The agent learns directly from experience by interacting with the environment and adjusting its actions based on feedback. It uses a mix of labeled and unlabeled data making it helpful when labeling data is costly or it is very limited. Forecasting models analyze past data to predict future trends, commonly used for time series problems like sales, demand or stock prices. The trained ML model must be integrated into an application or service to make its predictions accessible. APIs allow other applications or systems to access the ML model's functionality and integrate them into larger workflows. MLOps ensure they are deployed, monitored",
+            "and maintained efficiently in real-world production systems."
+        ]
+    },
+    {
+        "source_url": "https://www.youtube.com/watch?v=26QPDBe-NB8",
+        "source_type": "youtube",
+        "author": "CrashCourse",
+        "published_date": "2017-06-28T21:13:17Z",
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "os",
+            "unix",
+            "linux",
+            "macos",
+            "windows"
+        ],
+        "trust_score": 0.54,
+        "content_chunks": [
+            "Get 10% off a custom domain and email address by going to https://www.hover.com/CrashCourse. So as you may have noticed from last episode, computers keep getting faster and faster, and by the start of the 1950s they had gotten so fast that it often took longer to manually load programs via punch cards than to actually run them! The solution was the operating system (or OS), which is just a program with special privileges that allows it to run and manage other programs. So today, we’re going to trace the development of operating systems from the Multics and Atlas Supervisor to Unix and MS-DOS, and take at look at how these systems heavily influenced popular OSes like Linux, Windows, MacOS, and Android that we use today. Produced in collaboration with PBS Digital Studios: http://youtube.com/pbsdigitalstudios Want to know more about Carrie Anne? https://about.me/carrieannephilbin The Latest from PBS Digital Studios: https://www.youtube.com/playlist?list=PL1mtdjDVOoOqJzeaJAV15Tq0tZ1vKj7ZV Want to find Crash Course elsewhere on the internet? Facebook - https://www.facebook.com/YouTubeCrash... Twitter - http://www.twitter.com/TheCrashCourse Tumblr - http://thecrashcourse.tumblr.com Support Crash Course on Patreon: http://patreon.com/crashcourse CC Kids: http://www.youtube.com/crashcoursekids"
+        ]
+    },
+    {
+        "source_url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+        "source_type": "youtube",
+        "author": "freeCodeCamp.org",
+        "published_date": "2019-09-19T14:39:38Z",
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "programming",
+            "arrays",
+            "algorithms",
+            "data",
+            "beginners"
+        ],
+        "trust_score": 0.54,
+        "content_chunks": [
+            "Learn and master the most common data structures in this full course from Google engineer William Fiset. This course teaches data structures to beginners using high quality animations to represent the data structures visually. You will learn how to code various data structures together with simple to follow step-by-step instructions. Every data structure presented will be accompanied by some working source code (in Java) to solidify your understanding. 💻 Code: https://github.com/williamfiset/data-structures 🎥 Course created by William Fiset. Check out his YouTube channel: https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw ❤️ Try interactive Algorithms courses we love, right in your browser: https://scrimba.com/freeCodeCamp-Algorithms (Made possible by a grant from our friends at Scrimba) ⭐️ Course Contents ⭐️ ⌨️ (0:00:00) Abstract data types ⌨️ (0:04:28) Introduction to Big-O ⌨️ (0:17:00) Dynamic and Static Arrays ⌨️ (0:27:40) Dynamic Array Code ⌨️ (0:35:03) Linked Lists Introduction ⌨️ (0:49:16) Doubly Linked List Code ⌨️ (0:58:26) Stack Introduction ⌨️ (1:09:40) Stack Implementation ⌨️ (1:12:49) Stack Code ⌨️ (1:15:58) Queue Introduction ⌨️ (1:22:03) Queue Implementation ⌨️ (1:27:26) Queue Code ⌨️ (1:31:32) Priority Queue Introduction ⌨️ (1:44:16) Priority Queue Min Heaps and Max Heaps ⌨️ (1:49:55) Priority Queue Inserting Elements ⌨️ (1:59:27) Priority Queue Removing Elements ⌨️ (2:13:00) Priority Queue Code ⌨️ (2:28:26) Union Find Introduction ⌨️ (2:33:57) Union Find Kruskal's Algorithm ⌨️ (2:40:04) Union Find - Union and Find Operations ⌨️ (2:50:30) Union Find Path Compression ⌨️ (2:56:37) Union Find Code ⌨️ (3:03:54) Binary Search Tree Introduction ⌨️ (3:15:57) Binary Search Tree Insertion ⌨️ (3:21:20) Binary Search Tree Removal ⌨️ (3:34:47) Binary Search Tree Traversals ⌨️ (3:46:17) Binary Search Tree Code ⌨️ (3:59:26) Hash table hash function ⌨️ (4:16:25) Hash table separate chaining ⌨️ (4:24:10) Hash table separate chaining source code ⌨️ (4:35:44) Hash table open addressing ⌨️ (4:46:36) Hash table linear probing ⌨️ (5:00:21) Hash table quadratic probing ⌨️ (5:09:32) Hash table double hashing ⌨️ (5:23:56) Hash table open addressing removing ⌨️ (5:31:02) Hash table open addressing code ⌨️ (5:45:36) Fenwick Tree range queries ⌨️ (5:58:46) Fenwick Tree point updates ⌨️ (6:03:09) Fenwick Tree construction ⌨️ (6:09:21) Fenwick tree source code ⌨️ (6:14:47) Suffix Array introduction ⌨️ (6:17:54) Longest Common Prefix (LCP) array ⌨️ (6:21:07) Suffix array finding unique substrings ⌨️ (6:25:36) Longest common substring problem suffix array ⌨️ (6:37:04) Longest common substring problem suffix array part 2 ⌨️ (6:43:41) Longest Repeated Substring suffix array ⌨️ (6:48:13) Balanced binary search tree rotations ⌨️ (6:56:43) AVL tree insertion ⌨️ (7:05:42) AVL tree removals ⌨️ (7:14:12) AVL tree source code ⌨️ (7:30:49) Indexed Priority Queue | Data Structure ⌨️ (7:55:10) Indexed Priority Queue | Data Structure | Source Code -- Learn to code for free and get a developer job: https://www.freecodecamp.org Read hundreds of articles on programming: https://www.freecodecamp.org/news"
+        ]
+    },
+    {
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/31452104/",
+        "source_type": "pubmed",
+        "author": [
+            {
+                "name": "Gabriela Bitencourt-Ferreira",
+                "affiliation": "Escola de Ciências da Saúde, Pontifícia Universidade Católica do Rio Grande do Sul-PUCRS, Porto Alegre, RS, Brazil."
+            },
+            {
+                "name": "Walter Filgueira de Azevedo",
+                "affiliation": "Escola de Ciências da Saúde, Pontifícia Universidade Católica do Rio Grande do Sul-PUCRS, Porto Alegre, RS, Brazil. walter@azevedolab.net."
+            }
+        ],
+        "published_date": "2019",
+        "language": "en",
+        "region": null,
+        "topic_tags": [
+            "docking",
+            "docker",
+            "autodock",
+            "ligand",
+            "autodock4"
+        ],
+        "trust_score": 0.5,
+        "content_chunks": [
+            "Molegro Virtual Docker is a protein-ligand docking simulation program that allows us to carry out docking simulations in a fully integrated computational package. MVD has been successfully applied to hundreds of different proteins, with docking performance similar to other docking programs such as AutoDock4 and AutoDock Vina. The program MVD has four search algorithms and four native scoring functions. Considering that we may have water molecules or not in the docking simulations, we have a total of 32 docking protocols. The integration of the programs SAnDReS ( https://github.com/azevedolab/sandres ) and MVD opens the possibility to carry out a detailed statistical analysis of docking results, which adds to the native capabilities of the program MVD. In this chapter, we describe a tutorial to carry out docking simulations with MVD and how to perform a statistical analysis of the docking results with the program SAnDReS. To illustrate the integration of both programs, we describe the redocking simulation focused the cyclin-dependent kinase 2 in complex with a competitive inhibitor."
+        ]
+    }
+]
