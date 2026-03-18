@@ -7,114 +7,54 @@ import tldextract
 load_dotenv()
 Entrez.email =os.getenv("Email")
 
-#search for papers by author name
-def search_author_pubmed(author_name):
-    try:
-        handle = Entrez.esearch(
-            db="pubmed",
-            term=f"{author_name}[Author]",
-            retmax=5
-        )
-        record = Entrez.read(handle)
-        return record["IdList"]
-    except:
-        return []
 
-#fetch paper details
-def fetch_papers(paper_ids):
-    if not paper_ids:
-        return []
-    
-    try:
-        handle = Entrez.efetch(
-            db="pubmed",
-            id=",".join(paper_ids),
-            rettype="xml"
-        )
-        return Entrez.read(handle)
-    except:
-        return []
-
-#extract affiliations for a given author
-def extract_author_affiliations(pubmed_data, target_author):
-    affiliations = []
-
-    try:
-        for article in pubmed_data.get("PubmedArticle", []):
-            authors = article["MedlineCitation"]["Article"].get("AuthorList", [])
-
-            for author in authors:
-                name = ""
-                if "ForeName" in author and "LastName" in author:
-                    name = author["ForeName"] + " " + author["LastName"]
-
-                if target_author.lower() in name.lower():
-                    for aff in author.get("AffiliationInfo", []):
-                        affiliations.append(aff.get("Affiliation", ""))
-    except:
-        pass
-
-    return affiliations
-
-#checking for fake authors
-def verify_author_pubmed(author_name, claimed_affiliation=None):
- 
-
-    paper_ids = search_author_pubmed(author_name)
-    
-    # No publications → low trust
-    if not paper_ids:
-        return 0.2
-
-    time.sleep(0.3)  # to prevent rate limiting
-
-    papers = fetch_papers(paper_ids)
-    affiliations = extract_author_affiliations(papers, author_name)
-
-    # If affiliation provided, check match
-    if claimed_affiliation:
-        for aff in affiliations:
-            if claimed_affiliation.lower() in aff.lower():
-                return 0.9  # strong match
-
-        return 0.7  # author exists but affiliation mismatch
-
-    # If no affiliation provided, just existence matters
-    return 0.7
-
-
-#scoring a single author
 def score_single_author(author, source_type="blog"):
 
+    KNOWN_ORGS = [
+        "who", "nih", "cdc", "harvard", "stanford", "mit",
+        "mayo clinic", "oxford", "cambridge", "nature", "elsevier"
+    ]
+
+    TRUSTED_CHANNELS = [
+        "ted", "khan academy", "mit opencourseware",
+        "stanford", "harvard", "national geographic"
+    ]
+
+    # No author at all
     if not author:
         return 0.3
 
-    #for blog and youtube
-    if source_type in ["blog", "youtube"]:
-        score = 0.4
+    # Normalize input
+    if isinstance(author, dict):
+        name = author.get("name", "")
+        affiliation = author.get("affiliation", "")
+        text = (name + " " + affiliation).lower()
+    else:
+        text = str(author).lower()
+        name = text
 
-        if isinstance(author, str) and len(author.split()) >= 2:
-            score += 0.2
+    score = 0.4   # base score
 
-        return min(score, 0.6)  
+    # if first name and last name both
+    if isinstance(author, str) and len(author.split()) >= 2:
+        score += 0.2
 
-    # for Pubmed Verification
-    elif source_type == "pubmed":
-        if isinstance(author, dict):
-            name = author.get("name", "")
-            affiliation = author.get("affiliation", None)
-        else:
-            name = author
-            affiliation = None
+    # Renowned Organization match
+    if any(org in text for org in KNOWN_ORGS):
+        score += 0.3
 
-        if not name:
-            return 0.3
+    # Youtube Renowned channels
+    if source_type == "youtube":
+        if any(ch in text for ch in TRUSTED_CHANNELS):
+            score += 0.3
 
-        return verify_author_pubmed(name, affiliation)
+    #  PubMed special handling
+    if source_type == "pubmed":
+        if any(org in text for org in KNOWN_ORGS):
+            return 0.95   
+        return 0.85      # generally reliable authors
 
-    return 0.3
-
-
+    return min(score, 0.9)
 
 
 

@@ -73,7 +73,7 @@
             "nobel",
             "thinking"
         ],
-        "trust_score": 0.72,
+        "trust_score": 0.73,
         "content_chunks": [
             "The inside story of the AI breakthrough that won a Nobel Prize. -- The Thinking Game takes you on a journey into the heart of leading AI lab DeepMind, capturing a team striving to unravel the mysteries of intelligence and life itself. Filmed over five years by the award winning team behind AlphaGo, the documentary examines how DeepMind co-founder Demis Hassabis’s extraordinary beginnings shaped his lifelong pursuit of artificial general intelligence. It chronicles the rigorous process of scientific discovery, documenting how the team moved from mastering complex strategy games to solving the 50-year-old \"protein folding problem\" with AlphaFold - a breakthrough that would win a Nobel Prize. Following its world premiere at the Tribeca Festival and a successful international tour, the film is now available here to watch for free. Interested in hosting a screening of The Thinking Game for your classroom, community, or workplace? Visit: https://rocofilms.com/films/the-thinking-game/ ___ Director Greg Kohs Producer Gary Krieg Executive Producers Tom Dore, Jonathan Fildes Co-Producer Greg Kohs Editor Steve Sander Cinematographer Greg Kohs Composer Dan Deacon ___ 🎬 Want more? Watch the film that started it all - the historic game between Lee Sedol and AlphaGo: https://youtu.be/WXuK6gekU1Y"
         ]
@@ -120,7 +120,7 @@
             "ligand",
             "autodock4"
         ],
-        "trust_score": 0.5,
+        "trust_score": 0.54,
         "content_chunks": [
             "Molegro Virtual Docker is a protein-ligand docking simulation program that allows us to carry out docking simulations in a fully integrated computational package. MVD has been successfully applied to hundreds of different proteins, with docking performance similar to other docking programs such as AutoDock4 and AutoDock Vina. The program MVD has four search algorithms and four native scoring functions. Considering that we may have water molecules or not in the docking simulations, we have a total of 32 docking protocols. The integration of the programs SAnDReS ( https://github.com/azevedolab/sandres ) and MVD opens the possibility to carry out a detailed statistical analysis of docking results, which adds to the native capabilities of the program MVD. In this chapter, we describe a tutorial to carry out docking simulations with MVD and how to perform a statistical analysis of the docking results with the program SAnDReS. To illustrate the integration of both programs, we describe the redocking simulation focused the cyclin-dependent kinase 2 in complex with a competitive inhibitor."
         ]
